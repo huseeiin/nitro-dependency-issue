@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "with-nitro": "USE_NITRO=1 vite build && node .output/server/index.mjs",
+    "without-nitro": "vite build && node without-nitro.ts"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.4",
+    "@solidjs/start": "https://pkg.pr.new/solidjs/solid-start/@solidjs/start@2047",
+    "@types/node": "^25.0.9",
+    "h3": "2.0.1-rc.11",
+    "nitro": "^3.0.1-alpha.1",
+    "solid-js": "^1.9.10",
+    "video.js": "^8.23.4",
+    "vite": "^7.3.1"
+  }
+}
